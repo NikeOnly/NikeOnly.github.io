@@ -1,0 +1,548 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'Ubuntu Regular';
+  src: url("../fonts/ubuntu-r-webfont.eot");
+  src: url("../fonts/ubuntu-r-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-r-webfont.woff2") format("woff2"), url("../fonts/ubuntu-r-webfont.woff") format("woff"), url("../fonts/ubuntu-r-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Ubuntu Condensed Regular';
+  src: url("../fonts/ubuntu-c-webfont.eot");
+  src: url("../fonts/ubuntu-c-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu-c-webfont.woff2") format("woff2"), url("../fonts/ubuntu-c-webfont.woff") format("woff"), url("../fonts/ubuntu-c-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+.centered {
+  margin: 0 auto;
+  width: 1160px; }
+
+.u_r {
+  font-family: 'Ubuntu Regular'; }
+
+.u_c {
+  font-family: 'Ubuntu Condensed Regular'; }
+
+/* WRAPPER 1 */
+.wrapper1 {
+  height: 1013px;
+  width: 1160px; }
+
+.title-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.title-list__item {
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.title {
+  margin-left: 10px;
+  font-size: 30px;
+  color: #434343;
+  font-weight: bold; }
+
+.title__text {
+  margin-left: 10px;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 12px; }
+
+.title-list__social {
+  width: 16px;
+  height: 16px;
+  margin-left: 18px;
+  background-image: url("../img/socials_logos_sprite.png");
+  display: inline-block;
+  background-position-y: -2px; }
+
+.title-list__social:hover {
+  background-position-y: -28px; }
+
+.social-link2 {
+  background-position-x: -34px; }
+
+.social-link3 {
+  background-position-x: -67px; }
+
+.social-link4 {
+  background-position-x: -100px; }
+
+.social-link5 {
+  background-position-x: -133px; }
+
+/*menu*/
+.menu {
+  height: 56px;
+  width: 1160px;
+  background: #2a2d32;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative; }
+
+.menu__link {
+  padding: 0 39px;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  line-height: 56px;
+  border-right: 1px solid #181a1d; }
+
+.menu__link_colored {
+  background-color: #248cec; }
+
+.menu__link:hover {
+  color: #f4b60d; }
+
+.menu__input {
+  height: 38px;
+  width: 193px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: 1px solid #181a1d;
+  background-color: #35383c;
+  outline: none;
+  color: #626466;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  padding: 0 32px 0 14px; }
+
+.menu__search {
+  height: 14px;
+  width: 14px;
+  display: block;
+  position: absolute;
+  right: 22px;
+  top: 21px;
+  background-image: url("../img/search.png"); }
+
+/*slider*/
+.jcarousel {
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px; }
+
+.jcarousel ul {
+  width: 20000em;
+  position: relative;
+  /* Optional, required in this case since it's a <ul> element */
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.jcarousel li {
+  /* Required only for block elements like <li>'s */
+  float: left; }
+
+.jcarousel-pagination {
+  position: absolute;
+  bottom: 12px;
+  left: 46%; }
+
+.jcarousel-pagination a {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border: 3px solid white;
+  margin: 8px;
+  color: transparent;
+  background: white; }
+
+.jcarousel-pagination a.active {
+  background: #001d1d; }
+
+.build-business {
+  width: 308px;
+  height: 197px;
+  padding: 20px 0 0 28px;
+  left: 36px;
+  bottom: 43px;
+  line-height: 52px;
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-image: url("../img/build_your_business.png");
+  font-size: 54px;
+  text-transform: uppercase;
+  color: white; }
+
+.build-business_colored {
+  color: #f4b60d; }
+
+/*capabilities*/
+.capabilities__item {
+  width: 360px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 70px 0 0 123px; }
+
+.capabilities__h2 {
+  opacity: 0.1;
+  color: #2a2b2e;
+  font-size: 90px;
+  position: absolute;
+  left: 0;
+  top: 54px;
+  font-weight: bold; }
+
+.capabilities__logo {
+  width: 32px;
+  height: 32px;
+  background-image: url("../img/01_02_03_sprite.png"); }
+
+.capabilities__logo_2 {
+  background-position-x: -40px; }
+
+.capabilities__logo_3 {
+  background-position-x: -80px; }
+
+.capabilities__header {
+  padding: 15px 0 20px;
+  font-weight: bold;
+  font-size: 20px; }
+
+.capabilities__text {
+  height: 60px;
+  overflow: hidden;
+  color: #8a8a8a;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 20px; }
+
+.capabilities__link {
+  width: 85px;
+  margin: 18px 0;
+  display: block;
+  color: #2a2b2e;
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: url("../img/arrow_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 71px 3px; }
+
+.capabilities__link:hover {
+  background-position: 71px -15px;
+  color: #248cec; }
+
+/* WRAPPER 2 */
+.wrapper2 {
+  height: 500px;
+  background: #2a2d32; }
+
+.services__header {
+  padding: 50px 0;
+  color: white;
+  font-size: 24px; }
+
+.services-list__link1 {
+  width: 260px;
+  height: 260px;
+  display: block;
+  cursor: pointer;
+  position: relative; }
+
+.services-list__link1_transparent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(36, 140, 236, 0.9);
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s; }
+
+.services-list__link1_hover-image {
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  margin: -17.5px 0 0 -17.5px;
+  left: 50%;
+  top: 50%; }
+
+.services-list__link1:hover .services-list__link1_transparent {
+  opacity: 1; }
+
+.services-list__link2 {
+  width: 260px;
+  margin-top: 25px;
+  display: block;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer; }
+
+.services-list__link2:hover {
+  color: #f4b60d; }
+
+/* WRAPPER 3 */
+.wrapper3 {
+  height: 543px;
+  background: #f7f7f7; }
+
+.news__item {
+  width: 560px; }
+
+.news-article__item1 {
+  width: 150px;
+  position: relative; }
+
+.news__date {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: -20px;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  line-height: 40px; }
+
+.news__date-month {
+  top: 15px;
+  color: white;
+  background-color: #248cec; }
+
+.news__date-day {
+  top: 55px;
+  color: black;
+  background-color: #f4b60d; }
+
+.news-article__item2 {
+  width: 380px;
+  height: 180px; }
+
+.news-article__header {
+  margin: 6px 0;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px; }
+
+.news-article__header:hover {
+  color: #248cec; }
+
+.news-article__text1 {
+  height: 40px; }
+
+.news-article__link {
+  color: #0187f4;
+  text-decoration: none; }
+
+.news-article__text2 {
+  height: 80px; }
+
+.news__header {
+  margin: 60px 0 45px;
+  color: #2a2d32;
+  font-size: 24px;
+  font-weight: bold; }
+
+/*accordion*/
+.accordion {
+  height: 330px;
+  overflow: hidden; }
+
+.accordion__h3 {
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  outline: none;
+  background: white;
+  border: 1px solid #e8e8e8;
+  cursor: pointer; }
+
+.accordion__logo {
+  width: 40px;
+  height: 37px;
+  background-image: url("../img/accordion.png"); }
+
+.accordion__header {
+  height: 37px;
+  width: 521px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 37px;
+  text-indent: 10px;
+  font-size: 13px; }
+
+.ui-accordion-header-active {
+  background: #f4b60d;
+  color: white;
+  border: 1px solid #f4b60d; }
+
+.ui-accordion-header-active .accordion__logo {
+  background-image: url("../img/accordion_active.png"); }
+
+.accordion__item {
+  height: 140px;
+  padding: 20px 10px 0 40px; }
+
+.accordion__text {
+  height: 100px; }
+
+/* WRAPPER 4 */
+.wrapper4 {
+  height: 240px; }
+
+.logos {
+  height: 240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+/* WRAPPER 5 */
+.wrapper5 {
+  height: 325px;
+  background: #2a2d32; }
+
+.footer {
+  height: 325px; }
+
+.footer-list__item {
+  width: 260px; }
+
+.footer-list__header {
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 60px 0 35px; }
+
+.footer-list__link {
+  padding: 11px 0;
+  display: block;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  color: #828385;
+  border-bottom: 1px solid #393c40; }
+
+.footer-list__link:hover {
+  color: #248cec; }
+
+/* WRAPPER 6 */
+.wrapper6 {
+  height: 60px;
+  background: #35383c; }
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+  position: relative; }
+
+.contacts__image1,
+.contacts__image2,
+.contacts__image3 {
+  height: 20px;
+  width: 20px;
+  background-image: url("../img/contacts_sprite.png"); }
+
+.contacts__image2 {
+  background-position: -20px 0; }
+
+.contacts__image3 {
+  background-position: 20px 0; }
+
+.contacts__copyright,
+.contacts__text {
+  margin: 0 35px 0 5px;
+  color: white;
+  opacity: 0.2;
+  font-family: Arial;
+  font-size: 12px; }
+
+.contacts__copyright {
+  position: absolute;
+  margin: 0;
+  right: 0; }
