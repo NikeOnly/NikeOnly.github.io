@@ -299,6 +299,9 @@ table {
   height: 500px;
   background: #2a2d32; }
 
+.services {
+  background: #2a2d32; }
+
 .services__header {
   padding: 50px 0;
   color: white;
@@ -349,6 +352,9 @@ table {
 /* WRAPPER 3 */
 .wrapper3 {
   height: 543px;
+  background: #f7f7f7; }
+
+.news {
   background: #f7f7f7; }
 
 .news__item {
@@ -479,7 +485,8 @@ table {
   background: #2a2d32; }
 
 .footer {
-  height: 325px; }
+  height: 325px;
+  background: #2a2d32; }
 
 .footer-list__item {
   width: 260px; }
@@ -519,7 +526,8 @@ table {
       -ms-flex-align: center;
           align-items: center;
   height: 60px;
-  position: relative; }
+  position: relative;
+  background: #35383c; }
 
 .contacts__image1,
 .contacts__image2,

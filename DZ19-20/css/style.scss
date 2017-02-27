@@ -269,6 +269,10 @@
     background: #2a2d32;
 }
 
+.services {
+    background: #2a2d32;
+}
+
 .services__header {
     padding  : 50px 0;
     color    : white;
@@ -324,6 +328,10 @@
 /* WRAPPER 3 */
 .wrapper3 {
     height    : 543px;
+    background: #f7f7f7;
+}
+
+.news {
     background: #f7f7f7;
 }
 
@@ -398,7 +406,7 @@
 }
 /*accordion*/
 .accordion {
-    height: 330px;
+    height  : 330px;
     overflow: hidden;
 }
 
@@ -464,7 +472,8 @@
 }
 
 .footer {
-    height: 325px;
+    height    : 325px;
+    background: #2a2d32;
 }
 
 .footer-list__item {
@@ -503,6 +512,7 @@
     align-items   : center;
     height        : 60px;
     position      : relative;
+    background    : #35383c;
 }
 
 .contacts__image1,
