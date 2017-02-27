@@ -300,7 +300,8 @@ table {
   background: #2a2d32; }
 
 .services {
-  background: #2a2d32; }
+  background: #2a2d32;
+  height: 500px; }
 
 .services__header {
   padding: 50px 0;
