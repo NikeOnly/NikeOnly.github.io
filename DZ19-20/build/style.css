@@ -356,7 +356,8 @@ table {
   background: #f7f7f7; }
 
 .news {
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  height: 543px; }
 
 .news__item {
   width: 560px; }
