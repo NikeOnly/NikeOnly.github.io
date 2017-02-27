@@ -297,6 +297,7 @@ table {
 /* WRAPPER 2 */
 .wrapper2 {
   height: 500px;
+  width: 100%;
   background: #2a2d32; }
 
 .services__header {
