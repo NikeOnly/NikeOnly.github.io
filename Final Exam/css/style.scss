@@ -370,7 +370,7 @@
 .ideas__no-found {
     width        : 130px;
     height       : 25px;
-    margin       : -5px 0 0 140px;
+    margin       : -20px 0 0 140px;
     line-height  : 25px;
     position     : absolute;
     background   : rgba(0, 0, 0, 0.6);
@@ -380,6 +380,15 @@
     text-align   : center;
     z-index      : 1;
     display      : none;
+}
+
+.ideas__no-found:after {
+    content  : "";
+    position : absolute;
+    left     : 25px;
+    top      : 25px;
+    border: 10px solid transparent;
+    border-top: 10px solid rgba(0, 0, 0, 0.6);
 }
 
 .partners__find:hover {

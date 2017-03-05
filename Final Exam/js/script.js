@@ -48,7 +48,7 @@ $(document).ready(function() {
         if (event.keyCode === 13) {
             clearInterval(pictureChange);
             var input = $('.ideas__input').val();
-            apiImageFound(undefined, input);
+            apiImageFound(undefined, input); // без задания первого аргумента работать отказалось(
         }
     });
 
@@ -59,7 +59,7 @@ $(document).ready(function() {
     });
 
 
-    function randomWord() {
+    function randomWord() { // выбирает радномное слово из списка words для api поиска
         i = Math.floor(Math.random() * words.length);
         input = words[i];
         apiImageFound(undefined, input);
