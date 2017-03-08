@@ -23,6 +23,7 @@
 .wrapper1 {
     height             : 540px;
     width              : 320px;
+    background: grey;
     background-image   : url("../img/Landing_Desktop.jpg");
     margin             : 0 auto;
     background-repeat  : no-repeat;
@@ -191,6 +192,7 @@
     float        : left;
     border-radius: 4px;
     position     : relative;
+    background: grey;
 }
 
 .steps__text {
