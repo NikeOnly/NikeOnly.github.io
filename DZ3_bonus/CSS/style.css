@@ -1,0 +1,80 @@
+    body {
+        /*background-image: url(../img/layout.jpg);
+    background-position: top;
+    background-repeat: no-repeat;*/
+        /*background-position: center center;*/
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url(../img/background.jpg);
+    }
+
+    .wrapper {
+        width: 960px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    .logo {
+        width: 50%
+        float: left;
+        color: white;
+        position: relative;
+    }
+
+    .logo p {
+        margin: 123px 0 0 155px;
+        position: absolute;
+        color: #e6e6e6;
+        font-family: Tahoma;
+        font-size: 10px;
+    }
+
+    .logo img {
+        position: absolute;
+        margin: 4px 0 0 70px;
+    }
+
+    .contacts {
+        width: 50%;
+        float: right;
+        margin: 98px -305px 0 0;
+        color: #e6e6e6;
+        font-family: Tahoma;
+        font-size: 10px;
+        overflow: hidden;
+    }
+
+    .contacts li:first-child {
+        margin-bottom: 5px;
+    }
+
+    .content {
+        clear: both;
+        padding: 15px 60px;
+    }
+
+    .content div {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+
+    .image {
+        padding-top: 45px;
+    }
+
+    .text {
+        color: #e6e6e6;
+        font-family: Tahoma;
+        font-size: 15px;
+    }
+
+    .copyright {
+        clear: both;
+        padding-top: 181px;
+        text-align: center;
+        color: #e6e6e6;
+        font-family: Tahoma;
+        font-size: 10px;
+    }
