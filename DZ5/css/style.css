@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-thin-webfont.eot');
+    src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-thin-webfont.woff') format('woff'), url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('../fonts/helveticaneue-heavy-webfont.eot');
+    src: url('../fonts/helveticaneue-heavy-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneue-heavy-webfont.woff2') format('woff2'), url('../fonts/helveticaneue-heavy-webfont.woff') format('woff'), url('../fonts/helveticaneue-heavy-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    height: 36px;
+    width: 100%;
+    background-image: url(../img/top_menu_background.jpg);
+}
+
+
+/* MENU */
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.menu_item {
+    margin-top: 2px;
+    margin-left: 1px;
+    width: 1px;
+    height: 31px;
+    border-left: 1px solid #60b5ed;
+}
+
+.menu a {
+    display: block;
+    box-sizing: border-box;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 35px;
+    text-decoration: none;
+    color: #60b5ed;
+}
+
+.menu a:hover {
+    display: block;
+    background-color: #4eabda;
+    color: white;
+}
+
+.last_menu_items a {
+    color: white;
+}
+
+.last_menu_items a:hover {
+    box-sizing: border-box;
+    background: transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.last_menu_items2 a {
+    box-sizing: border-box;
+    border-left: 1px solid #449ad3;
+    border-right: 1px solid #449ad3;
+    border-bottom: 1px solid #449ad3;
+    background: linear-gradient(to top, #2e7ac4, #51b1dc);
+    color: #ffffff;
+}
+
+.last_menu_items img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+
+/* CONTAINER */
+
+.container {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: auto;
+}
+
+.box {
+    width: 560px;
+    height: 613px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    line-height: 62px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.login_form {
+    text-align: center;
+    margin-top: 2px;
+    width: 100%;
+    height: 549px;
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.facebook {
+    padding-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.facebook li:first-child {
+    height: 34px;
+    width: 38px;
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #1f3c76;
+    border-top: 1px solid #7889b7;
+    line-height: 34px;
+    font-size: 20px;
+    background: linear-gradient(to top, #304272, #3e5694);
+}
+
+.facebook li:last-child {
+    height: 34px;
+    width: 238px;
+    border-radius: 0 4px 4px 0;
+    border-left: 1px solid #4c68a9;
+    border-top: 1px solid #7889b7;
+    font-size: 15px;
+    background: linear-gradient(to top, #304272, #3e5694);
+}
+
+.login_form a {
+    display: block;
+    line-height: 34px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    color: #effdff;
+    text-decoration: none;
+}
+
+.facebook li span {
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    color: #effdff;
+    font-weight: bold;
+}
+
+.OU {
+    padding-top: 38px;
+    padding-bottom: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.OU div {
+    width: 123px;
+    height: 0px;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid black;
+}
+
+.OU p {
+    margin-top: -6px;
+    width: 30px;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    color: #999999;
+}
+
+.text_input input {
+    margin: 8px auto;
+    padding: 0 19px;
+    height: 35px;
+    width: 240px;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 0px solid transparent;
+    border-bottom: 1px solid grey;
+    color: #cccccc;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    background: linear-gradient(to top, #141414, #11100f);
+}
+
+.text_input input:focus {
+    outline: none;
+    background: #1b5288;
+    box-shadow: 0 0 7px 2px #447faa;
+    border-bottom: 1px solid #689bcc;
+}
+
+.checkbox {
+    margin: 14px 0 22px 139px;
+    text-align: left;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    color: #cccccc;
+}
+
+.button input {
+    padding: 0;
+    height: 35px;
+    width: 151px;
+    border-left: 1px solid #52a0da;
+    border-right: 1px solid #52a0da;
+    border-top: 1px solid #6bb8e7;
+    border-bottom: 1px solid #3686ca;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    background: linear-gradient(to top, #2e7ac4 0%, #50aedb 97%, #67c6e6 3%);
+}
+
+.button input:focus {
+    outline: none;
+}
+
+.privacy_policy {
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 310px;
+    font-size: 12px;
+    font-family: 'Helvetica Neue', Tahoma, sans-serif;
+    line-height: 16px;
+    color: #cccccc;
+}
