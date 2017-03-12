@@ -1,0 +1,1174 @@
+@font-face {
+    font-family: 'Lucida Regular';
+    src: url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff2') format('woff2'), url('../fonts/lucida-sans-unicode_allfont.ru-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.Lucida10 {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 10px;
+    color: black;
+}
+
+.Lucida11 {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 11px;
+}
+
+.Arial10 {
+    font-family: 'Arial', sans-serif;
+    font-size: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 100vh;
+    width: 910px;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    width: 910px;
+}
+
+.phone_numbers {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    width: 305px;
+}
+
+.phone_numbers p {
+    padding: 21px 0 0 5px;
+    color: #5e696d;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.023em;
+}
+
+.phone_numbers img {
+    margin: 22px 0 0 6px;
+    background-color: #f10000;
+    background-image: linear-gradient(to top, #206988 0%, #114165 59%, #0c3256 100%);
+    border-radius: 100%;
+    width: 21px;
+    height: 21px;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: row;
+    margin: 18px 0 0 8px;
+    height: 26px;
+    width: 495px;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+    border-radius: 4px;
+}
+
+.login_form img {
+    margin: 4px 3px 0 7px;
+    width: 14px;
+    height: 18px;
+}
+
+#login, #password {
+    margin: 3px 2px 0 0;
+    padding: 0;
+    width: 113px;
+    height: 16px;
+    background-color: white;
+    border: 1px solid #9ba1a3;
+    text-indent: 4px;
+    letter-spacing: 0.07em;
+    color: #97a2a6;
+}
+
+#submit {
+    width: 28px;
+    height: 20px;
+    padding: 0;
+    border: 0 solid transparent;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.login_form button {
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode";
+}
+
+.login_form span {
+    margin: 0 2px 0 3px;
+    line-height: 24px;
+    color: white;
+}
+
+.registration {
+    font-size: 12px;
+    text-decoration: none;
+    line-height: 24px;
+    letter-spacing: -0.07em;
+    color: #ffffff;
+    font-family: "Lucida Sans Unicode";
+}
+
+.forgotten_password {
+    margin-left: 22px;
+    font-size: 12px;
+    text-decoration: underline;
+    line-height: 24px;
+    color: #bfbfbf;
+    font-family: "Lucida Sans Unicode";
+}
+
+.navi {
+    width: 75px;
+    height: 19px;
+    margin: 19px 0 0 17px;
+    border: 1px solid #bdc4c7;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px rgba(150, 150, 150, 0.75);
+}
+
+.navi a {
+    margin: 0 -2px 0 7px;
+}
+
+.banner {
+    height: 237px;
+    width: 910px;
+    background-image: url(../img/banner.jpg);
+}
+
+
+/* MENU */
+
+.menu {
+    width: 910px;
+    height: 32px;
+    margin: 6px 0 10px -2px;
+    background-image: linear-gradient(to top, black 0%, #2d3236 87%, #3a4046 88%, #4d5663 100%);
+    border: 1px solid #0d1642;
+    border-radius: 5px;
+    box-shadow: 1.5px 2.6px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: row;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list a {
+    display: block;
+    height: 26px;
+    margin-top: 3px;
+    border-radius: 13px;
+    line-height: 26px;
+    color: #b1bcc0;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.list a:hover {
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+}
+
+.list li:first-child {
+    width: 123px;
+    text-indent: 20px;
+    margin-left: 126px;
+}
+
+.list li:nth-child(2) {
+    width: 90px;
+    text-indent: 17px;
+    letter-spacing: 0.03em;
+}
+
+.list li:nth-child(3) {
+    width: 102px;
+    text-indent: 16px;
+}
+
+.list li:nth-child(4) {
+    width: 84px;
+    text-indent: 17px;
+    letter-spacing: 0.01em;
+}
+
+.list li:last-child {
+    width: 102px;
+    text-indent: 13px;
+}
+
+.basket_img {
+    width: 21px;
+    height: 17px;
+    margin: 7px 5px 0 56px;
+}
+
+.basket {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial', sans-serif;
+}
+
+.basket li:first-child {
+    margin-left: 2px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #929b9f;
+    letter-spacing: 0.05em;
+}
+
+.basket li:nth-child(2) {
+    line-height: 32px;
+    text-indent: 1px;
+    font-size: 12px;
+    color: #0d5a8f;
+}
+
+.basket li:nth-child(3) {
+    margin-left: 14px;
+    line-height: 30px;
+    font-size: 11px;
+    color: #929b9f;
+    letter-spacing: 0.03em;
+}
+
+.basket li:last-child {
+    line-height: 32px;
+    text-indent: 9px;
+    font-size: 12px;
+    color: #0d5a8f;
+    letter-spacing: 0.05em;
+}
+
+
+/* CONTAINER */
+
+
+/*FIND PO AVTO*/
+
+.find {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 -46px;
+}
+
+.findPoAvto_box {
+    width: 413px;
+    height: 132px;
+    margin: 1px 14px 0 49px;
+    border: 1px solid #9c9c9d;
+    border-radius: 17px;
+    box-shadow: 2.6px 4.3px 5px rgba(104, 104, 104, 0.75);
+}
+
+.findPoAvto_header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.findPoAvto_header li:first-child {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 10px;
+    margin: 5px 65px 0 20px;
+    letter-spacing: 0.05em;
+    color: #154468;
+}
+
+.findPoAvto_header li:nth-child(2) {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 12px;
+    margin: 2px 72px 0 0;
+    letter-spacing: 0.03em;
+    color: #154467;
+}
+
+.findPoAvto_header li:last-child {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 10px;
+    margin-top: 3px;
+    letter-spacing: 0.03em;
+    color: #154468;
+}
+
+.findPoAvto {
+    display: flex;
+    flex-direction: row;
+}
+
+.marka {
+    margin: 12px 22px 0 17px;
+    color: black;
+    letter-spacing: 0.03em;
+}
+
+.marka span {
+    font-size: 8px;
+    color: #77858b;
+}
+
+.model {
+    margin: 7px 0 0 17px;
+    width: 75px;
+    color: black;
+    letter-spacing: 0.03em;
+    line-height: 0.7em;
+}
+
+.model span {
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.14em;
+}
+
+.year {
+    margin: 7px 0 0 17px;
+    width: 75px;
+    color: black;
+    letter-spacing: 0.05em;
+    line-height: 0.8em;
+}
+
+.year span {
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.14em;
+}
+
+.complectation {
+    margin: 8px 0 0 17px;
+    width: 75px;
+    color: black;
+    letter-spacing: 0.01em;
+}
+
+.findPoAvto_select_item {
+    outline: none;
+    border: none;
+    margin: 6px 0 -1px 0;
+    width: 101px;
+    height: 17px;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.findPoAvto_select_item3 {
+    outline: none;
+    border: none;
+    margin: 6px 0 -1px 0;
+    width: 57px;
+    height: 17px;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+}
+
+.list_tyres {
+    margin: -2px 0 0 11px;
+}
+
+.model1 {
+    margin: 7px 0 0 17px;
+    width: 75px;
+    color: black;
+    letter-spacing: 0.02em;
+    line-height: 0.7em;
+}
+
+.model1 span {
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.13em;
+}
+
+.year1 {
+    margin: 7px 0 0 17px;
+    width: 75px;
+    color: black;
+    letter-spacing: -0.01em;
+    line-height: 0.8em;
+}
+
+.year1 span {
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.13em;
+}
+
+.findPoAvto_select {
+    margin-top: -2px;
+}
+
+.findPoAvto_box a {
+    margin: 6px 19px 0 330px;
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    text-align: right;
+    color: #154467;
+    letter-spacing: -0.03em;
+}
+
+
+/*FIND TYRES*/
+
+.findTyres_box {
+    width: 191px;
+    height: 134px;
+    margin: 1px 10px 0 0;
+    border: 1px solid #9c9c9d;
+    border-radius: 17px;
+    box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
+
+.findTyres {
+    display: flex;
+    flex-direction: row;
+}
+
+.findTyres_header {
+    margin: 3px 0 0 9px;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 12px;
+    color: #114165;
+    letter-spacing: 0.02em;
+}
+
+.findTyres_text li:first-child {
+    margin: 15px 0 0 13px;
+    width: 40px;
+    letter-spacing: -0.02em;
+}
+
+.findTyres_text li:nth-child(2) {
+    margin: 11px 0 0 45px;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+}
+
+.findTyres_text li:last-child {
+    margin: 7px 0 0 14px;
+    width: 40px;
+    letter-spacing: 0.01em;
+}
+
+.findTyres_select1 {
+    width: 51px;
+    height: 17px;
+    margin: 7px 0 0 5px;
+    outline: none;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-indent: -2px;
+}
+
+.findTyres_select2 {
+    width: 45px;
+    height: 17px;
+    margin: 7px 0 0 5px;
+    outline: none;
+    box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.75);
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-indent: -3px;
+}
+
+.type_of_tyre {
+    width: 20px;
+    line-height: 14px;
+    /* Непонятная зависимость label от checkbox. Выровнял checkbox через line-height и margin, выставил надписи позиционированием. По-другому выставить надписи относительно checkbox не удалось, когда checkbox внутри label вообще без шансов.*/
+    position: relative;
+}
+
+.type_of_tyre input {
+    margin: 0 0 0 4px;
+    width: 11px;
+    height: 11px;
+}
+
+#type_of_tyre1 {
+    margin-top: 7px;
+}
+
+.type_of_tyre1 {
+    position: absolute;
+    margin: 7px 0 0 -2px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+}
+
+.type_of_tyre2 {
+    position: absolute;
+    margin: 1px 0 0 -3px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.05em;
+}
+
+.type_of_tyre3 {
+    position: absolute;
+    margin: 0 0 0 2px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.02em;
+}
+
+.findTyres_symbol {
+    margin: 10px 0 0 5px;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.findTyres_select3 {
+    margin: 7px 0 0 6px;
+    width: 52px;
+    height: 17px;
+    outline: none;
+    box-shadow: inset 0.5px 0.9px 5px rgba(0, 0, 0, 0.75);
+}
+
+.findTyres_box a {
+    margin: -2px 18px 0 111px;
+    padding: 0;
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    text-align: right;
+    color: #154467;
+    letter-spacing: -0.03em;
+}
+
+
+/* FIND DISC */
+
+.findDisc_box {
+    width: 266px;
+    height: 134px;
+    margin-top: 1px;
+    border: 1px solid #9c9c9d;
+    border-radius: 14px;
+    box-shadow: 2.6px 4.3px 5px rgba(150, 150, 150, 0.75);
+}
+
+.findDisc {
+    display: flex;
+    flex-direction: row;
+}
+
+.findDisc_header {
+    margin: 3px 0 0 9px;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 12px;
+    color: #114165;
+    letter-spacing: 0.08em;
+}
+
+.diametr {
+    width: 90px;
+    margin: 9px 0 0 16px;
+    letter-spacing: 0.09em;
+}
+
+.diametr span {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.11em;
+    color: #77858b;
+}
+
+.holes {
+    width: 90px;
+    margin: 7px 0 0 15px;
+    letter-spacing: 0.09em;
+    line-height: 0.9em;
+}
+
+.holes span {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    color: #77858b;
+}
+
+.holes i {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.11em;
+    color: #77858b;
+}
+
+.position_of_holes {
+    width: 90px;
+    margin: 2px 0 0 16px;
+    letter-spacing: 0.08em;
+    line-height: 1em;
+}
+
+.position_of_holes span {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.12em;
+    color: #77858b;
+}
+
+.position_of_holes i {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.1em;
+    color: #77858b;
+}
+
+.findDisc_select1 {
+    width: 57px;
+    height: 17px;
+    margin-top: 5px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-indent: -1px;
+}
+
+.findDisc_select2 {
+    width: 51px;
+    height: 17px;
+    margin-top: 14px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-indent: 1px;
+}
+
+.findDisc_select3 {
+    width: 57px;
+    height: 17px;
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-indent: -1px;
+}
+
+.findDisc_vertical_line {
+    margin: -12px 10px 0 12px;
+    height: 106px;
+    border-left: 1px solid #bdc6ca;
+}
+
+.diametr_of_hole1 {
+    width: 70px;
+    margin: -9px 0 0 0px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.14em;
+}
+
+.diametr_of_hole2 {
+    width: 70px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.12em;
+}
+
+.diametr_of_hole3 {
+    width: 70px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.14em;
+}
+
+.findDisc_select4 {
+    width: 57px;
+    height: 17px;
+    margin: 3px 0 0 1px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1.6px 1.6px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    text-indent: -1px;
+}
+
+.ET1 {
+    width: 70px;
+    margin: 8px 0 0 1px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 9px;
+}
+
+.ET2 {
+    width: 70px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 8px;
+    color: #77858b;
+    letter-spacing: 0.09em;
+}
+
+.findDisc_box a {
+    margin: -1px 18px 0 184px;
+    padding: 0;
+    display: block;
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    text-align: right;
+    color: #154467;
+    letter-spacing: -0.03em;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+
+/* LEFT MENU */
+
+.left_menu {
+    width: 190px;
+}
+
+.product_catalog {
+    display: flex;
+    flex-direction: row;
+    width: 181px;
+    height: 25px;
+    margin: 3px 0 0 -2px;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+
+.catalog_icon {
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin: 2px 0 0 3px;
+    border-radius: 100%;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+}
+
+.product_catalog_text {
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 13px;
+    color: #114165;
+    line-height: 27px;
+    text-indent: 4px;
+}
+
+.products {
+    width: 148px;
+    height: 26px;
+    margin: 13px 0 99px 0px;
+    border: 1px solid #79878d;
+    border-radius: 14px;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    margin: 2px 0 0 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    border: 5px solid #114165;
+}
+
+.products_text {
+    line-height: 28px;
+    text-indent: 29px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 14px;
+    color: #114165;
+}
+
+.products_link {
+    display: block;
+    width: 150px;
+    margin: 1px 0 4.5px 34px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 13px;
+    color: #465961;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    line-height: 21px;
+    height: 21px;
+    text-indent: 10px;
+    background-image: url(../img/item_background.jpg);
+}
+
+.products a:hover {
+    background-image: url(../img/item_background_hover.jpg);
+    font-family: 'Arial', sans-serif;
+    color: #0c3256;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+}
+
+
+/* CONTENT */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 526px;
+    height: 627px;
+    background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+    border-radius: 3px;
+}
+
+.content_tyre_box_1 {
+    margin: 14px 0 8px 23px;
+    height: 180px;
+    width: 144px;
+}
+
+.content_tyre_box_2 {
+    margin: 14.5px 0 8px 24px;
+    height: 180px;
+    width: 144px;
+}
+
+.content_tyre_box_3 {
+    margin: 15px 0 0px 24px;
+    height: 180px;
+    width: 144px;
+}
+
+.goodyear_text_1 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 15px;
+    text-indent: 33px;
+    letter-spacing: 0.02em;
+    color: #206988;
+}
+
+.goodyear_text_2 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 13px;
+    text-indent: 13px;
+    color: #1f2528;
+}
+
+.goodyear_text_3 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 37px;
+    letter-spacing: 0.02em;
+    line-height: 23px;
+    color: #114165;
+}
+
+.goodyear_text_3 span {
+    letter-spacing: 0.08em;
+    font-size: 12px;
+}
+
+.nokian_text_1 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 15px;
+    text-indent: 45px;
+    letter-spacing: 0.02em;
+    color: #206988;
+}
+
+.nokian_text_2 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 13px;
+    text-indent: 25px;
+    letter-spacing: -0.01em;
+    color: #1f2528;
+}
+
+.nokian_text_3 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 35px;
+    letter-spacing: 0.02em;
+    line-height: 26px;
+    color: #114165;
+}
+
+.nokian_text_3 span {
+    letter-spacing: 0.15em;
+    font-size: 12px;
+}
+
+.hankook_text_1 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 15px;
+    text-indent: 39px;
+    letter-spacing: 0.02em;
+    color: #206988;
+}
+
+.hankook_text_2 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 13px;
+    text-indent: 12px;
+    letter-spacing: -0.01em;
+    color: #1f2528;
+}
+
+.hankook_text_3 {
+    display: block;
+    text-decoration: none;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 35px;
+    letter-spacing: 0.02em;
+    line-height: 23px;
+    color: #114165;
+}
+
+.hankook_text_3 span {
+    letter-spacing: 0.08em;
+    font-size: 12px;
+}
+
+.content_tyre_box_1 div, .content_tyre_box_2 div, .content_tyre_box_3 div {
+    width: 136px;
+    height: 127px;
+    background-color: white;
+    border: 1px solid #a4aeb1;
+    border-radius: 7px;
+}
+
+.content_tyre_box_1 img {
+    padding: 6px 0 0 26px;
+    width: 79px;
+    height: 118px;
+}
+
+.content_tyre_box_2 img {
+    padding: 5px 0 0 27px;
+    width: 79px;
+    height: 118px;
+}
+
+.content_tyre_box_3 img {
+    padding: 5px 0 0 29px;
+    width: 79px;
+    height: 118px;
+}
+
+
+/* RIGHT MENU */
+
+.brands {
+    padding: 2px 0 0 0px;
+    width: 194px;
+}
+
+.brands_header {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 25px;
+    margin: -1px 0 0 10px;
+    border: 1px solid #79878d;
+    border-radius: 12px;
+    box-shadow: 1.5px 2.6px 3px rgba(150, 150, 150, 0.75);
+}
+
+.brands_text {
+    line-height: 24px;
+    text-indent: 6px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.04em;
+    color: #114165;
+}
+
+.tyres_right {
+    margin: 14px 0 0 24px;
+    width: 135px;
+}
+
+.brands_checkbox {
+    margin-left: 9px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 13px;
+    text-indent: 5px;
+    color: #465961;
+}
+
+#brand_1, #brand_2, #brand_3, #brand_4, #brand_5, #brand_6 {
+    width: 10px;
+    height: 10px;
+    margin: 9px 0 6px 35px;
+}
+
+.tyres_checkbox {
+    width: 135px;
+}
+
+.disc_right {
+    margin: 11px 0px 2px 22px;
+    width: 137px;
+}
+
+.products_text_2 {
+    line-height: 26px;
+    text-indent: 32px;
+    font-family: 'Lucida Regular', 'Arial', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #0c3256;
+}
+
+#submit_2 {
+    width: 82px;
+    height: 26px;
+    margin: 16px 0 0 33px;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    border: 1px solid #a7abae;
+    border-radius: 10px;
+    color: #e5e9ea;
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.07em;
+    outline: none;
+    box-shadow: 2px 1px 4px rgba(150, 150, 150, 0.75);
+}
+
+.brand_image {
+    margin-top: 38px;
+    width: 910px;
+    height: 52px;
+}
+
+.brand_image_1 {
+    margin-left: 116px;
+}
+
+.brand_image_2 {
+    margin-left: 8px;
+}
+
+.brand_image_3 {
+    margin-left: 9px;
+}
+
+.brand_image_4 {
+    margin-left: 11px;
+}
+
+.brand_image_5 {
+    margin-left: 8px;
+}
+
+.brand_image_6 {
+    margin-left: 9px;
+}
+
+.brand_image_7 {
+    margin-left: 9px;
+}
+
+.brand_image_8 {
+    margin-left: 11px;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin-left: -1px;
+    width: 908px;
+    height: 100px;
+    background-color: #213a4d;
+    border: 1px solid #242a3c;
+}
+
+footer ul {
+    margin: 11px 0 0 308px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer li {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    color: #bec6c9;
+}
+
+footer a {
+    text-decoration: none;
+    color: #bec6c9;
+}
+
+footer p {
+    margin: 16px 0 0 377px;
+    color: #7f4740;
+}
+
+footer li:first-child {
+    letter-spacing: 0.03em;
+}
+
+footer li:nth-child(2), footer li:nth-child(4), footer li:nth-child(6) {
+    text-indent: 11px;
+}
+
+footer li:nth-child(3), footer li:nth-child(5) {
+    text-indent: 11px;
+    letter-spacing: 0.03em;
+}
+
+footer li:nth-child(7) {
+    text-indent: 14px;
+    letter-spacing: 0.03em;
+}
+
+footer a:hover {
+    color: #52abcb;
+}
