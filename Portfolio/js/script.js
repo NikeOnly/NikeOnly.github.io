@@ -9,7 +9,7 @@ window.onscroll = function() {
     var scrolled = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrolled > 50) {
-        document.querySelector('.header').style.height = '30px';
+        document.querySelector('.header').style.height = '40px';
         document.querySelector('.header').style.opacity = '0.6';
     }
     if (scrolled < 50) {
