@@ -77,6 +77,25 @@ table {
   -ms-flex-pack: distribute;
       justify-content: space-around; }
 
+.contacts-icon {
+  width: 25px;
+  height: 25px;
+  margin: -4px 5px 0 10px;
+  background-image: url("../img/contacts_sprite.png");
+  background-size: cover; }
+
+.contacts-email {
+  background-position: 25px 0; }
+
+.contacts__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
 .contacts__link {
   color: #00c3c3;
   text-decoration: none; }
@@ -99,6 +118,7 @@ table {
   font-size: 20px; }
 
 .skills__row {
+  margin-left: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -203,7 +223,6 @@ table {
   color: white;
   line-height: 20px;
   background: rgba(0, 0, 0, 0.6);
-  text-align: justify;
   bottom: 10px;
   left: 10px;
   border-radius: 10px; }
@@ -259,9 +278,7 @@ table {
   padding-top: 20px; }
 
 @media (max-width: 960px) {
-  .contacts-mobile {
-    display: none; }
-  .contacts-email {
+  h1 {
     display: none; }
   .skills__row {
     -webkit-box-orient: vertical;
@@ -272,37 +289,101 @@ table {
     width: 55%;
     margin: 0 auto;
     padding: 0; }
+  .skills__list2 li:nth-child(1) {
+    margin: 0 -10% 5px; }
+  .skills__list2 li:nth-child(2) {
+    margin: 0 -8% 5px; }
+  .skills__list2 li:nth-child(3) {
+    margin: 0 -6% 5px; }
+  .skills__list2 li:nth-child(4) {
+    margin: 0 -4% 5px; }
+  .skills__list2 li:nth-child(5) {
+    margin: 0 -2% 5px; }
+  .skills__list2 li:nth-child(6) {
+    margin: 0 0 5px; }
   .jcarousel__article {
     width: 65%;
-    padding: 5px 2%; } }
+    padding: 5px 2%; }
+  .footer__list2 li:nth-child(1) {
+    margin: 0 -6% 5px; }
+  .footer__list2 li:nth-child(2) {
+    margin: 0 -4% 5px; }
+  .footer__list2 li:nth-child(3) {
+    margin: 0 -2% 5px; }
+  .footer__list2 li:nth-child(4) {
+    margin: 0 0 5px; } }
 
 @media (max-width: 768px) {
-  .contacts__link-mail,
-  h1 {
+  .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .contacts__item {
     display: none; }
+  .contacts p {
+    margin-bottom: 5px;
+    text-align: center; }
+  .contacts__list {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
   .skills__list {
     width: 75%; }
   .jcarousel__article {
     width: 35%;
     text-align: center; }
-  .jcarousel__article p {
-    display: none; } }
+  .jcarousel__article {
+    width: 70%;
+    text-align: center;
+    margin-left: -37%;
+    left: 50%;
+    line-height: 17px; }
+  .content-article__header {
+    padding-bottom: 0;
+    display: none; }
+  .jcarousel-prev {
+    left: 3px; }
+  .jcarousel-next {
+    right: 3px; } }
 
 @media (max-width: 480px) {
   .contacts {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: center;
+    min-width: 320px; }
+  .contacts__list {
+    letter-spacing: -0.03em; }
+  .contacts-mobile {
+    display: none; }
+  .contacts__link-mail {
+    display: block; }
+  .skills {
+    width: 100%;
+    min-width: 320px; }
+  .skills__head {
     min-width: 320px; }
   .skills__list {
-    width: 110%; }
-  .skills__item {
-    min-width: 320px; }
+    width: 90%; }
+  .skills__list li:nth-child(1) {
+    margin: 0 0 5px; }
+  .skills__list li:nth-child(2) {
+    margin: 0 0 5px; }
+  .skills__list li:nth-child(3) {
+    margin: 0 0 5px; }
+  .skills__list li:nth-child(4) {
+    margin: 0 0 5px; }
+  .skills__list li:nth-child(5) {
+    margin: 0 0 5px; }
+  .skills__list li:nth-child(6) {
+    margin: 0 0 5px; }
   .content {
     min-width: 320px; }
   .content-article__header {
     display: none; }
-  .skills__head {
-    min-width: 320px; } }
+  .jcarousel__article {
+    width: 66%;
+    margin-left: -35%; }
+  .footer__list2 li:nth-child(1) {
+    margin: 0 0 5px; }
+  .footer__list2 li:nth-child(2) {
+    margin: 0 0 5px; }
+  .footer__list2 li:nth-child(3) {
+    margin: 0 0 5px; } }
