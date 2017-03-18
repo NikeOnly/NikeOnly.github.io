@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="shortcut icon" href="img/resume-icon.png" type="image/png">
+    <link href="css/fotorama.css" rel="stylesheet">
     <link rel="stylesheet" href="build/style.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+
+
+
 </head>
 
 <body>
@@ -74,85 +76,46 @@
 
             <div class="content-carousel o_s">
 
-              <ul class="fotorama" data-width="100%" data-ratio="940/500" data-loop="true" data-nav="false" data-arrows="always">
-                <li class="">
-                    <article class="content-carousel__article">
-                        <header class="content-article__header">Urlaubsglück</header>
-                        <p>Pixel perfect chrome lastest, crossbrowser, responsive, "Mobile first", API pictures search with AJAX request</p>
-                        <a class="content-article__link" href="https://nikeonly.github.io/FinalExam/index.html" target="_blank">> See <</a>
-                    </article>
-                    <img class="content-carousel__img" src="img/940px(1440)_Landing_Desktop.jpg" alt="Urlaubsglück">
-                </li>
-                <li class="">
-                    <article class="content-carousel__article">
-                        <header class="content-article__header">Build Home</header>
-                        <p>Pixel perfect chrome lastest, SCSS and BEM metodologies, jQuery plugins (carousel, rotation, accordion)</p>
-                        <a class="content-article__link" href="https://nikeonly.github.io/DZ19-20/index.html" target="_blank">> See <</a>
-                    </article>
-                    <img class="content-carousel__img" src="img/homework19_20.jpg" alt="Build Home">
-                </li>
-                <li class="">
-                    <article class="content-carousel__article">
-                        <header class="content-article__header">Pingbuller</header>
-                        <p>Pixel perfect chrome lastest, crossbrowser (IE8+), responsive, adaptated to mobile devices</p>
-                        <a class="content-article__link" href="https://nikeonly.github.io/DZ7-8/index.html" target="_blank">> See <</a>
-                    </article>
-                    <img class="content-carousel__img" src="img/Layout_960px.jpg" alt="Pingbuller">
-                </li>
-                <li class="">
-                    <article class="content-carousel__article">
-                        <header class="content-article__header">Resume</header>
-                        <p>Crossbrowser, responsive, adaptated to mobile devices</p>
-                        <a class="content-article__link" href="https://nikeonly.github.io/Resume/index.html" target="_blank">> See <</a>
-                    </article>
-                    <img class="content-carousel__img" src="img/resume.jpg" alt="Resume">
-                </li>
-                <li class="carousel__item_centered">
-                    <p class="coming-soon">Coming soon...</p>
-                    <img class="content-carousel__img" src="img/comingSoon.jpg" alt="Coming soon">
-                </li>
-              </ul>
-
-
-                <!-- <ul class="jcarousel__list">
-                    <li class="jcarousel__item">
-                        <article class="jcarousel__article">
+                <ul class="fotorama" data-width="100%" data-ratio="940/500" data-loop="true" data-nav="false" data-arrows="always">
+                    <li class="">
+                        <article class="content-carousel__article">
                             <header class="content-article__header">Urlaubsglück</header>
                             <p>Pixel perfect chrome lastest, crossbrowser, responsive, "Mobile first", API pictures search with AJAX request</p>
                             <a class="content-article__link" href="https://nikeonly.github.io/FinalExam/index.html" target="_blank">> See <</a>
                         </article>
-                        <img class="jcarousel__img" src="img/940px(1440)_Landing_Desktop.jpg" alt="Urlaubsglück">
+                        <img class="content-carousel__img" src="img/940px(1440)_Landing_Desktop.jpg" alt="Urlaubsglück">
                     </li>
-                    <li class="jcarousel__item">
-                        <article class="jcarousel__article">
+                    <li class="">
+                        <article class="content-carousel__article">
                             <header class="content-article__header">Build Home</header>
                             <p>Pixel perfect chrome lastest, SCSS and BEM metodologies, jQuery plugins (carousel, rotation, accordion)</p>
                             <a class="content-article__link" href="https://nikeonly.github.io/DZ19-20/index.html" target="_blank">> See <</a>
                         </article>
-                        <img class="jcarousel__img" src="img/homework19_20.jpg" alt="Build Home">
+                        <img class="content-carousel__img" src="img/homework19_20.jpg" alt="Build Home">
                     </li>
-                    <li class="jcarousel__item">
-                        <article class="jcarousel__article">
+                    <li class="">
+                        <article class="content-carousel__article">
                             <header class="content-article__header">Pingbuller</header>
                             <p>Pixel perfect chrome lastest, crossbrowser (IE8+), responsive, adaptated to mobile devices</p>
                             <a class="content-article__link" href="https://nikeonly.github.io/DZ7-8/index.html" target="_blank">> See <</a>
                         </article>
-                        <img class="jcarousel__img" src="img/Layout_960px.jpg" alt="Pingbuller">
+                        <img class="content-carousel__img" src="img/Layout_960px.jpg" alt="Pingbuller">
                     </li>
-                    <li class="jcarousel__item">
-                        <article class="jcarousel__article">
+                    <li class="">
+                        <article class="content-carousel__article">
                             <header class="content-article__header">Resume</header>
                             <p>Crossbrowser, responsive, adaptated to mobile devices</p>
                             <a class="content-article__link" href="https://nikeonly.github.io/Resume/index.html" target="_blank">> See <</a>
                         </article>
-                        <img class="jcarousel__img" src="img/resume.jpg" alt="Resume">
+                        <img class="content-carousel__img" src="img/resume.jpg" alt="Resume">
                     </li>
-                    <li class="jcarousel__item jcarousel__item_centered">
+                    <li class="carousel__item_centered">
                         <p class="coming-soon">Coming soon...</p>
-                        <img class="jcarousel__img" src="img/comingSoon.jpg" alt="Coming soon">
+                        <img class="content-carousel__img" src="img/comingSoon.jpg" alt="Coming soon">
                     </li>
                 </ul>
-                <a href="#" class="jcarousel-nav jcarousel-prev"><img src="img/arrowLeft.png" alt=""></a>
+
+                <!-- <a href="#" class="jcarousel-nav jcarousel-prev"><img src="img/arrowLeft.png" alt=""></a>
                 <a href="#" class="jcarousel-nav jcarousel-next"><img src="img/arrowRight.png" alt=""></a> -->
             </div>
         </div>
@@ -181,7 +144,7 @@
         </div>
     </div>
 
-    <script src="js/jcarousel.js"></script>
+    <script src="js/fotorama.js"></script>
     <script src="js/script.js"></script>
 
 </body>
