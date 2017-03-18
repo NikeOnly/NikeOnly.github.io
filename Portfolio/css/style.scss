@@ -138,37 +138,36 @@
     border-radius: 10px;
 }
 
-.jcarousel {
+.content-carousel {
     position     : relative;
     overflow     : hidden;
     border-radius: 10px;
     box-shadow   : 0 0 10px rgba(0,0,0,0.5);
 }
+// .jcarousel__list {
+//     width     : 20000em;
+//     position  : relative;
+//     /* Optional, required in this case since it's a <ul> element */
+//     list-style: none;
+//     margin    : 0;
+//     padding   : 0;
+// }
+//
+// .jcarousel__item {
+//     /* Required only for block elements like <li>'s */
+//     float   : left;
+//     overflow: hidden;
+//     position: relative;
+// }
 
-.jcarousel__list {
-    width     : 20000em;
-    position  : relative;
-    /* Optional, required in this case since it's a <ul> element */
-    list-style: none;
-    margin    : 0;
-    padding   : 0;
-}
-
-.jcarousel__item {
-    /* Required only for block elements like <li>'s */
-    float   : left;
-    overflow: hidden;
-    position: relative;
-}
-
-.jcarousel__item_centered {
+.carousel__item_centered {
     display        : flex;
     justify-content: center;
     align-items    : center;
     text-align     : center;
 }
 
-.jcarousel__img {
+.content-carousel__img {
     width: 100%;
 }
 
@@ -178,7 +177,7 @@
     position : absolute;
 }
 
-.jcarousel__article {
+.content-carousel__article {
     width        : 35%;
     padding      : 15px 2%;
     position     : absolute;
@@ -204,37 +203,35 @@
 .content-article__link:hover {
     color: white;
 }
-
-.fotorama__arr,
-.jcarousel-nav {
-    width        : 42px;
-    height       : 42px;
-    margin-top   : -21px;
-    border-radius: 21px;
-    background   : black;
-    display      : block;
-    position     : absolute;
-    top          : 50%;
-    opacity      : 0.4;
-}
-
-.jcarousel-prev img {
-    margin-left: 4px;
-}
-
-.jcarousel-next img {
-    margin-left: 8px;
-}
-
-.fotorama__arr--prev,
-.jcarousel-prev {
-    left: 10px;
-}
-
-.fotorama__arr--next,
-.jcarousel-next {
-    right: 10px;
-}
+// .jcarousel-nav {
+//     width        : 42px;
+//     height       : 42px;
+//     margin-top   : -21px;
+//     border-radius: 21px;
+//     background   : black;
+//     display      : block;
+//     position     : absolute;
+//     top          : 50%;
+//     opacity      : 0.4;
+// }
+//
+// .jcarousel-prev img {
+//     margin-left: 4px;
+// }
+//
+// .jcarousel-next img {
+//     margin-left: 8px;
+// }
+//
+//
+// .jcarousel-prev {
+//     left: 10px;
+// }
+//
+//
+// .jcarousel-next {
+//     right: 10px;
+// }
 /* WRAPPER 3 */
 .wrapper3 {
     background: linear-gradient(to bottom, #00c3c3, #0054ab);
