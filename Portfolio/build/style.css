@@ -186,6 +186,9 @@ table {
   margin: 0 auto 20px; }
 
 /*slider*/
+.fotorama__stage {
+  border-radius: 10px; }
+
 .jcarousel {
   position: relative;
   overflow: hidden;
