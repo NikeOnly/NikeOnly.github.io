@@ -157,6 +157,13 @@
     position: relative;
 }
 
+.jcarousel__item_centered {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    text-align: center;
+}
+
 .jcarousel__img {
     width: 100%;
 }
@@ -164,8 +171,6 @@
 .coming-soon {
     font-size: 50px;
     position : absolute;
-    top      : 45%;
-    left     : 33%;
 }
 
 .jcarousel__article {

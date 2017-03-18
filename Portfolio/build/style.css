@@ -207,14 +207,24 @@ table {
   overflow: hidden;
   position: relative; }
 
+.jcarousel__item_centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center; }
+
 .jcarousel__img {
   width: 100%; }
 
 .coming-soon {
   font-size: 50px;
-  position: absolute;
-  top: 45%;
-  left: 33%; }
+  position: absolute; }
 
 .jcarousel__article {
   width: 35%;
@@ -328,7 +338,7 @@ table {
     -ms-flex-pack: distribute;
         justify-content: space-around; }
   .skills__list {
-    width: 75%; }
+    width: 80%; }
   .jcarousel__article {
     width: 35%;
     text-align: center; }
@@ -360,6 +370,8 @@ table {
     min-width: 320px; }
   .skills__head {
     min-width: 320px; }
+  .skills__row {
+    margin-left: 0; }
   .skills__list {
     width: 90%; }
   .skills__list li:nth-child(1) {
