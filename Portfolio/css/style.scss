@@ -161,7 +161,7 @@
     display        : flex;
     justify-content: center;
     align-items    : center;
-    text-align: center;
+    text-align     : center;
 }
 
 .jcarousel__img {
@@ -169,6 +169,7 @@
 }
 
 .coming-soon {
+    padding  : 0 60px;
     font-size: 50px;
     position : absolute;
 }
