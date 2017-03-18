@@ -250,10 +250,10 @@ table {
   .wrapper {
     width: 320px; }
   .centered {
-    width: 250px; }
+    width: 310px; }
   .jcarousel__item {
-    width: 240px;
-    padding: 0 5px; }
+    width: 280px;
+    padding: 0 15px; }
   .flyout__controls {
     display: none; }
   .flyout__head {
@@ -262,11 +262,15 @@ table {
   .skills {
     padding-left: 10px;
     width: 200px; }
+  .jcarousel-nav {
+    top: 100px; }
   .jcarousel-prev {
-    left: -35px; }
+    left: 0; }
   .jcarousel-next {
-    right: -35px; }
+    right: 0; }
+  .resume-language {
+    top: 101px; }
   .resume-language_left {
-    left: -22px; }
+    left: 12px; }
   .resume-language_right {
-    right: -22px; } }
+    right: 12px; } }
