@@ -20,37 +20,24 @@ window.onscroll = function() {
 
 $(document).ready(function() {
 
-    $('.jcarousel')
-        .on('jcarousel:create jcarousel:reload', function() {
-            var element = $(this),
-                width = element.innerWidth();
-            element.jcarousel('items').css('width', width + 'px');
-        })
-        .jcarousel({
-            // Your configurations options
-            wrap: 'both',
-            animation: 'slow'
-        });
-
-    $('.jcarousel-prev').jcarouselControl({
-        target: '-=1'
-    });
-
-    $('.jcarousel-next').jcarouselControl({
-        target: '+=1'
-    });
-
-    // $(function() {
-    //     $('.jcarousel').jcarousel({
-    //         // Configuration goes here
+    // $('.jcarousel')
+    //     .on('jcarousel:create jcarousel:reload', function() {
+    //         var element = $(this),
+    //             width = element.innerWidth();
+    //         element.jcarousel('items').css('width', width + 'px');
+    //     })
+    //     .jcarousel({
+    //         // Your configurations options
     //         wrap: 'both',
     //         animation: 'slow'
     //     });
-
-
-
-
+    //
+    // $('.jcarousel-prev').jcarouselControl({
+    //     target: '-=1'
     // });
-
+    //
+    // $('.jcarousel-next').jcarouselControl({
+    //     target: '+=1'
+    // });
 
 });
