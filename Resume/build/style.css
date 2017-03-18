@@ -94,7 +94,17 @@ table {
   text-align: center; }
 
 .contacts {
-  margin: 0 0 5px;
+  margin: 0 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center; }
 
 .contacts__mob {
@@ -137,7 +147,7 @@ table {
 .flyout__head {
   padding: 2px 15px 2px 12px;
   display: inline;
-  line-height: 26px;
+  line-height: 28px;
   border-radius: 10px 0 10px 0;
   font-size: 18px;
   cursor: pointer;
@@ -174,7 +184,7 @@ table {
   height: 101%;
   width: 3px;
   left: -20px;
-  top: -1px; }
+  top: -2px; }
 
 .skills {
   list-style: circle;
@@ -221,3 +231,42 @@ table {
 .resume-language_right {
   right: -25px;
   opacity: 1; }
+
+@media (max-width: 878px) {
+  .wrapper {
+    width: 572px; }
+  .centered {
+    width: 480px; }
+  .jcarousel__item {
+    width: 430px;
+    padding: 0 25px; }
+  .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+
+@media (max-width: 570px) {
+  .wrapper {
+    width: 320px; }
+  .centered {
+    width: 250px; }
+  .jcarousel__item {
+    width: 240px;
+    padding: 0 5px; }
+  .flyout__controls {
+    display: none; }
+  .flyout__head {
+    padding: 2px 7px;
+    letter-spacing: -0.04em; }
+  .skills {
+    padding-left: 10px;
+    width: 200px; }
+  .jcarousel-prev {
+    left: -35px; }
+  .jcarousel-next {
+    right: -35px; }
+  .resume-language_left {
+    left: -22px; }
+  .resume-language_right {
+    right: -22px; } }

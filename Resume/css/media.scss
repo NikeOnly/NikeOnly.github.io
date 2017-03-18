@@ -1,0 +1,63 @@
+@media (max-width: 878px) {
+    .wrapper {
+        width: 572px;
+    }
+
+    .centered {
+        width: 480px;
+    }
+
+    .jcarousel__item {
+        width  : 430px;
+        padding: 0 25px;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+}
+@media (max-width: 570px) {
+    .wrapper {
+        width: 320px;
+    }
+
+    .centered {
+        width: 250px;
+    }
+
+    .jcarousel__item {
+        width  : 240px;
+        padding: 0 5px;
+    }
+
+    .flyout__controls {
+        display: none;
+    }
+
+    .flyout__head {
+        padding       : 2px 7px;
+        letter-spacing: -0.04em;
+    }
+
+    .skills {
+        padding-left: 10px;
+        width       : 200px;
+    }
+
+    .jcarousel-prev {
+        left: -35px;
+    }
+
+    .jcarousel-next {
+        right: -35px;
+    }
+
+    .resume-language_left {
+        left: -22px;
+    }
+
+    .resume-language_right {
+        right: -22px;
+    }
+}
+@media (max-width: 480px) {}
